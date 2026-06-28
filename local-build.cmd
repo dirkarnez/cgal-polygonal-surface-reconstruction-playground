@@ -17,7 +17,7 @@ SET PATH=^
 
 cmake.exe -G"MinGW Makefiles" ^
 -DCMAKE_BUILD_TYPE=Debug ^
--Dportaudio_DIR="%DOWNLOADS_DIR_LINUX%/portaudio-v19.7.0-winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r1/lib/cmake/portaudio" ^
+-DCGAL_DIR="%DOWNLOADS_DIR_LINUX%/cgal-v6.2-winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r1/lib/cmake/CGAL" ^
 -B./cmake-build &&^
 cd cmake-build &&^
 cmake --build . &&^

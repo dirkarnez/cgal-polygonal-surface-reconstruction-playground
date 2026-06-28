@@ -1,4 +1,5 @@
 {
+    "workbench.colorTheme": "Dark Modern",
     "terminal.integrated.profiles.windows": {
         "PowerShell": null,
         "Windows PowerShell": null,
